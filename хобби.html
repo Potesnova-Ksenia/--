@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Мои Хобби</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+        header {
+            background: #35424a;
+            color: #ffffff;
+            padding: 20px 0;
+            text-align: center;
+            position: relative;
+        }
+        header img {
+            width: 50px;
+            height: auto;
+            position: absolute;
+            top: 20px;
+        }
+        header img:first-child {
+            left: 20px;
+        }
+        header img:last-child {
+            right: 20px;
+        }
+        nav {
+            margin: 10px 0;
+        }
+        nav a {
+            color: #ffffff;
+            margin: 0 15px;
+            text-decoration: none;
+        }
+        nav a:hover {
+            text-decoration: underline;
+        }
+        .container {
+            width: 80%;
+            margin: auto;
+            overflow: hidden;
+            padding: 20px;
+        }
+        h2 {
+            color: #35424a;
+        }
+        .hobby {
+            background: #ffffff;
+            margin: 20px 0;
+            padding: 15px;
+            border-radius: 5px;
+            box-shadow: 0 0 10px #ccc;
+            display: flex;
+            flex-wrap: wrap;
+        }
+        .hobby-description {
+            flex: 1;
+            padding: 10px;
+            min-width: 200px;
+        }
+        .hobby-images {
+            display: flex;
+            justify-content: space-between;
+            flex-wrap: wrap;
+        }
+        .hobby-images img {
+            width: 30%;
+            height: auto;
+            margin: 5px 0;
+            border-radius: 5px;
+        }
+        footer {
+            text-align: center;
+            padding: 10px 0;
+            background: #35424a;
+            color: #ffffff;
+            position: relative;
+            bottom: 0;
+            width: 100%;
+        }
+        @media (max-width: 600px) {
+            .container {
+                width: 100%;
+                padding: 10px;
+            }
+            .hobby {
+                flex-direction: column;
+            }
+            .hobby-description, .hobby-images {
+                flex: none;
+                width: 100%;
+            }
+            .hobby-images {
+                flex-direction: row;
+            }
+
+
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <img src="https://via.placeholder.com/50" alt="Логотип слева">
+    <h1>Добро пожаловать на мой сайт!</h1>
+    <img src="https://via.placeholder.com/50" alt="Логотип справа">
+    <nav>
+        <a href="#hobby1">Хобби 1</a>
+        <a href="#hobby2">Хобби 2</a>
+        <a href="#hobby3">Хобби 3</a>
+        <a href="#hobby4">Хобби 4</a>
+        <a href="#hobby4">Хобби 4</a>
+<a href="#hobby5">Хобби 5</a>
+<a href="#hobby4">Хобби 6</a>
+<a href="#hobby4">Хобби 7</a>
+    </nav>
+</header>
+
+<div class="container">
+    <h2>Мои Хобби</h2>
+
+    <div class="hobby" id="hobby1">
+        <div class="hobby-description">
+            <h3>1. Хобби 1</h3>
+            <p>Здесь вы можете описать своё первое хобби. Например, расскажите, как вы начали его заниматься, что вам в этом нравится и какие достижения у вас есть.</p>
+        </div>
+        <div class="hobby-images">
+            <img src="C:\Users\Ксения\OneDrive\Рабочий стол\р1.jpg" alt="Фото 1">
+            <img src="C:\Users\Ксения\OneDrive\Рабочий стол\р2.jpg" alt="Фото 2">
+            <img src="C:\Users\Ксения\OneDrive\Рабочий стол\р3.jpg" alt="Фото 3">
+        </div>
+    </div>
+
+    <div class="hobby" id="hobby2">
+        <div class="hobby-description">
+            <h3>2. Хобби 2</h3>
+            <p>Описание второго хобби. Поделитесь своими мыслями и опытом.</p>
+        </div>
+        <div class="hobby-images">
+           <img src="C:\Users\Ксения\OneDrive\Рабочий стол\б2.jpg" alt="Фото 1">
+            <img src="C:\Users\Ксения\OneDrive\Рабочий стол\б1.jpg" alt="Фото 2">
+            <img src="C:\Users\Ксения\OneDrive\Рабочий стол\бб3.jpg" alt="Фото 3">
+
+        </div>
+    </div>
+
+    <div class="hobby" id="hobby3">
+        <div class="hobby-description">
+            <h3>3. Хобби 3</h3>
+            <p>Здесь можно рассказать о третьем увлечении, чем оно вас привлекает.</p>
+        </div>
+        <div class="hobby-images">
+            <img src="C:\Users\Ксения\OneDrive\Рабочий стол\бб1.jpg" alt="Фото 1">
+            <img src="C:\Users\Ксения\OneDrive\Рабочий стол\бб2.jpg" alt="Фото 2">
+            <img src="C:\Users\Ксения\OneDrive\Рабочий стол\б3.jpg" alt="Фото 3">
+        </div>
+    </div>
+
+
+<div class="hobby" id="hobby4">
+        <div class="hobby-description">
+            <h3>4. Хобби 4</h3>
+            <p>Здесь можно рассказать о третьем увлечении, чем оно вас привлекает.</p>
+        </div>
+        <div class="hobby-images">
+            <img src="C:\Users\Ксения\OneDrive\Рабочий стол\о1.jpg" alt="Фото 1">
+            <img src="C:\Users\Ксения\OneDrive\Рабочий стол\о2.jpg" alt="Фото 2">
+            <img src="C:\Users\Ксения\OneDrive\Рабочий стол\о3.jpg" alt="Фото 3">
+        </div>
+    </div>
+
+
+  <div class="hobby" id="hobby5">
+        <div class="hobby-description">
+            <h3>5. Хобби 5</h3>
+            <p>Здесь можно рассказать о третьем увлечении, чем оно вас привлекает.</p>
+        </div>
+        <div class="hobby-images">
+            <img src="C:\Users\Ксения\OneDrive\Рабочий стол\х1.jpg" alt="Фото 1">
+            <img src="C:\Users\Ксения\OneDrive\Рабочий стол\х2.jpg" alt="Фото 2">
+            <img src="C:\Users\Ксения\OneDrive\Рабочий стол\х3.jpg" alt="Фото 3">
+        </div>
+    </div>
+
+
+    <div class="hobby" id="hobby6">
+        <div class="hobby-description">
+            <h3>6. Хобби 6</h3>
+            <p>Опишите своё четвертое хобби, возможно, вы хотите поделиться интересными фактами или советами.</p>
+        </div>
+        <div class="hobby-images">
+            <img src="C:\Users\Ксения\OneDrive\Рабочий стол\ц1.jpg" alt="Фото 1">
+            <img src="C:\Users\Ксения\OneDrive\Рабочий стол\ц2.jpg" alt="Фото 2">
+            <img src="C:\Users\Ксения\OneDrive\Рабочий стол\ц3.jpg" alt="Фото 3">
+        </div>
+    </div>
+
+<div class="hobby" id="hobby6">
+        <div class="hobby-description">
+            <h3>6. Хобби 6</h3>
+            <p>Здесь можно рассказать о третьем увлечении, чем оно вас привлекает.</p>
+        </div>
+        <div class="hobby-images">
+            <img src="C:\Users\Ксения\OneDrive\Рабочий стол\т1.jpg" alt="Фото 1">
+            <img src="C:\Users\Ксения\OneDrive\Рабочий стол\т2.jpg" alt="Фото 2">
+            <img src="C:\Users\Ксения\OneDrive\Рабочий стол\т3.jpg" alt="Фото 3">
+        </div>
+    </div>
+
+<div class="hobby" id="hobby7">
+    <div class="hobby-description">
+        <h3>7. Хобби 7</h3>
+        <p>Здесь можно рассказать о третьем увлечении, чем оно вас привлекает.</p>
+    </div>
+    <div class="hobby-images">
+        <img id="special-image" src="C:\Users\Ксения\OneDrive\Рабочий стол\г1.jpg" alt="Фото 1">
+    </div>
+</div>
+
+</div>
+
+<footer>
+    <p>&copy; 2024 Мои Хобби</p>
+</footer>
+
+</body>
+</html>
